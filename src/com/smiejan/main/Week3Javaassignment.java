@@ -59,7 +59,6 @@ public class Week3Javaassignment {
 		}
 
 		// problem 10
-	//Write a method that takes an array of double and returns the average of all the elements in the array.
 
 		public static double calculateAverage(double[] numbers) {
 			double sum = 0;
@@ -69,17 +68,46 @@ public class Week3Javaassignment {
 			return sum/ numbers.length;
 			}
 		// problem 11
-		//Write a method that takes two arrays of double and returns true if the average of the elements in the
-		//first array is greater than the average of the elements in the second array.
-		
-		public static boolean strIsBigger(double[]x, double[]Y ) {
-			//for each double array  use calculateAverage, If  first double array  is  larger then true
-			for (double[]:doubles calculateAverage);
-					
-			}
-		}
-		}
+				
+		public static boolean strIsBigger(double[]x, double[] y) {
+			double average1 = 0;
+			double average2 = 0;
+			{ 
+				for (int i = 0; i < 5; i++) {
+			     average1 += x[i];
+			     average2 += y[i];{
+			   	 if (average1 > average1);
+			   	  
+			     return true;
+			     }
 
+		
+		// Problem 12
+		public static boolean willBuyDrink( boolean isHotOutside, double moneyInPocket) {
+			if (isHotOutside && moneyInPocket > 10.50);
+			return true;
+		}
+// 13.	Create a method of your own that solves a problem. In comments, write what the method does and why you created it.
+		// The method  below  adds a a new element to an array
+		
+	    public static int[] add_element(int n, int myarray[], int ele) 
+	    { 
+	         int i; 
+	 
+	         int newArray[] = new int[n + 1]; 
+	        //copy original array into new array
+	        for (i = 0; i &lt; n; i++) 
+	              newArray[i] = myarray[i]; 
+	 
+	        //add element to the new array
+	        newArray[n] = ele; 
+	 
+	        returnnewArray; 
+	    }
+		
+		}
+		
+		
 
 	
 		
